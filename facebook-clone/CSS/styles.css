@@ -1,0 +1,23 @@
+/*Register Section*/
+
+.registerSection{
+    display: flex;
+    justify-content: center;
+
+}
+
+.registerForm{
+    margin-top: 100px;
+    box-shadow: 4px 4px gray;
+    border: 1ps solid black;
+}
+
+.registerForm div{
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.registerForm label{
+    width: 100px;
+}
