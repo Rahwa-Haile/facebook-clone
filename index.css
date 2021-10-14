@@ -1,0 +1,143 @@
+.facebook{
+    background-color:whitesmoke;
+    display: flex;
+}
+
+.section1{
+    width: 350px;
+    border: 1px solid black;
+    border-bottom: none;
+    height: 100vh;
+}
+
+.section2{
+    width: 700px;
+    border: 1px solid black;
+    border-bottom: none;
+    height: fit-content;
+    
+}
+
+.section3{
+    width:300px;
+    border: 1px solid black;
+    border-bottom: none;
+    height: 100vh;
+}
+#input-post{
+    width: 300px;
+    height: 30px;
+    margin: 50px 0 0 30px;
+    outline: none;
+    border-radius: 10px;
+    background-color: rgb(241, 242, 245);
+    cursor: pointer;
+}
+#post-modal-wrapper{
+    width: 100vw;
+    height: 100vh;
+    background-color: grey;
+    z-index: 1;
+    position: absolute;
+    opacity: 0.4;
+    display: none;
+}
+#post-modal{
+    width: 300px;
+    height: 250px;
+    position: absolute;
+    z-index: 3;
+    background-color: white;
+    top: 200px;
+    left: 360px;
+    border-radius: 5px;
+    display: none;
+  
+}
+
+#modal-title{
+    height: 50px;
+    width: 100%;
+    border-bottom: 1px solid black;
+    text-align: center;
+    margin-top: 15px;
+    font-style: 700px;
+}
+#close-btn{
+    float: right;
+    border: none;
+    border-radius: 50%;
+    background-color: rgb(229, 230, 235);
+    color: white;
+
+}
+#post-wrapper{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+#post-wrapper input{
+    height: 100px;
+    margin-bottom: 30px;
+    border: none;
+    outline: none;
+}
+
+#post-wrapper button{
+    background-color: rgb(25, 119, 243);
+    border: none;
+    outline: none;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+}
+.top-bar{
+    height: 50px;
+    width: 100vw;
+}
+
+.profile-btn{
+    width: 70px;
+    height: 40px;
+    background-color: white;
+    transform: translate(700px, 10px);
+    border-radius: 10px;
+    position: relative;
+}
+.profile-cont{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    
+    margin: 2px 0 0 5px;
+    position : absolute;
+    border: 1px solid black;
+}
+.profile-btn:hover{
+    background-color: rgb(235, 235, 235);
+}
+
+.date-div{
+    
+    display: flex;
+    flex-direction: column;
+}
+.profileMain{
+    color: white;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+.profile{
+    width: 25rem;
+    border: 1px gray;
+
+}
+.profile-section{
+    height: 10rem;
+    background-image: linear-gradient(rgb(230,230,230) 70% , gray);
+    border-radius: 0 0 10px 10px;
+
+}

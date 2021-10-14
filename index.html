@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class='top-bar'>
+        <div class='profile-btn'>
+            <div class='profile-cont'></div>
+        </div>
+    </div>
+
+    <div class='facebook'>
+        <span id='post-modal-wrapper'>
+           
+        </span>
+
+        <span id='editPostModal'>
+            <input type="text">
+            <button>Save Changes</button>
+        </span>
+        <span id='post-modal'>
+              <button id='close-btn'>X</button>
+              <div id="modal-title">
+                  Create Post
+              </div>  
+              <div id='post-wrapper'>
+                <input id='post' type="text" placeholder="What's on your mind?">
+                <button id="postBtn">Post</button>
+              </div>
+              
+        </span>
+        <div class='section1'></div>
+        <div class='section2'>
+            <input id='input-post' type="text" placeholder="What's on your mind?">
+            <div id='post-main'></div>
+        </div>
+        <div  class='section3'></div>
+    </div>
+
+    <script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.17.1//firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.17.1//firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.17.1//firebase-analytics.js"></script>
+    
+    <script src="config.js"></script>
+    <script src='post.js'></script>
+    <script src='index.js'></script>
+    
+</body>
+</html>
